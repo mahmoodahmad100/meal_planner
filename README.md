@@ -1,2 +1,2 @@
 # meal planner
-* will be based on ROR
+* based on ROR
