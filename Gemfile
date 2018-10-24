@@ -15,7 +15,8 @@ gem 'clearance', '~> 1.15.1'
 gem 'nokogiri', '1.6.8.1'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'minitest-rails'
+  gem 'factory_bot_rails'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 

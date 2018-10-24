@@ -671,3 +671,72 @@ Processing by WelcomeController#show as HTML
 Completed 200 OK in 128ms (Views: 127.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 172.18.0.1 at 2018-10-20 19:10:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2018-10-24 18:44:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 172.18.0.1 at 2018-10-24 18:44:06 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (88.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (135.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#show as HTML
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (8.5ms)
+  Rendered welcome/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 1443ms (Views: 1417.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1447ms (Views: 1421.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (13.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4539817668794235555)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRecipes (20181024184634)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (902.0ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying NOT NULL, "description" text NOT NULL, "user_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_9606fce865"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (87.7ms)[0m  [1m[35mCREATE  INDEX  "index_recipes_on_user_id" ON "recipes"  ("user_id")[0m
+  [1m[35m (70.8ms)[0m  [1m[35mCREATE  INDEX  "index_recipes_on_user_id_and_name" ON "recipes"  ("user_id", "name")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181024184634"]]
+  [1m[35m (21.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (70.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4539817668794235555)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.18.0.1 at 2018-10-24 19:27:06 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (44.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 391ms (Views: 389.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2018-10-24 21:00:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 382ms (Views: 351.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2018-10-24 21:40:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (44.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 603ms (Views: 601.2ms | ActiveRecord: 0.0ms)
+
+
