@@ -1465,3 +1465,271 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+Started GET "/" for 172.18.0.1 at 2018-11-19 06:50:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (44.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 513ms (Views: 497.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 172.18.0.1 at 2018-11-19 06:50:39 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/_form.html.erb (39.0ms)
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application (1410.6ms)
+Completed 200 OK in 1432ms (Views: 1431.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for 172.18.0.1 at 2018-11-19 06:50:48 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"test1@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (51.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test1@example.com"], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/_form.html.erb (2.0ms)
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 401 Unauthorized in 500ms (Views: 18.2ms | ActiveRecord: 141.1ms)
+
+
+Started POST "/session" for 172.18.0.1 at 2018-11-19 06:50:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"test@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 817ms (ActiveRecord: 513.2ms)
+
+
+Started GET "/" for 172.18.0.1 at 2018-11-19 06:51:00 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 06:51:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (72.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 7]]
+  Rendered recipes/index.html.erb within layouts/application (111.3ms)
+Completed 200 OK in 203ms (Views: 50.8ms | ActiveRecord: 76.6ms)
+
+
+Started GET "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (150.8ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 1.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `recipe' for #<#<Class:0x007f759414a918>:0x007f75b08426f0>):
+     6:     <li><%= link_to "Back", recipes_path %></li>
+     7:     <li><%= link_to "Edit", edit_recipe_path(@recipe) %></li>
+     8:     <li><%= link_to "Delete", recipe_path(@recipe), data: {
+     9:       confirm: "you wanna delete #{recipe.name}?!",
+    10:     }, method: :delete %></li>
+    11:   </ul>
+    12: </div>
+  
+app/views/recipes/show.html.erb:9:in `_app_views_recipes_show_html_erb__3720604629778106793_70071724677220'
+Started GET "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 19.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/recipes/5/edit" for 172.18.0.1 at 2018-11-19 06:51:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  Rendering recipes/edit.html.erb within layouts/application
+  Rendered recipes/_form.html.erb (26.4ms)
+  Rendered recipes/edit.html.erb within layouts/application (89.6ms)
+Completed 200 OK in 148ms (Views: 103.7ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"Xoxo shabby chic offal polaroid gentrify truffaut goth.", "description"=>"Heirloom authentic yuccie. Tattooed vice meggings typewriter ramps. Banh mi bespoke twee next level vinegar mumblecore. Distillery farm-to-table master chillwave vegan bespoke fixie. Forage ethical kickstarter mlkshk food truck bespoke tote bag."}, "commit"=>"Update Recipe", "id"=>"5"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND ("recipes"."id" != $2) AND "recipes"."user_id" = $3 LIMIT $4[0m  [["name", "Xoxo shabby chic offal polaroid gentrify truffaut goth."], ["id", 5], ["user_id", 7], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/recipes/5
+Completed 302 Found in 40ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 16.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/recipes/5/edit" for 172.18.0.1 at 2018-11-19 06:51:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  Rendering recipes/edit.html.erb within layouts/application
+  Rendered recipes/_form.html.erb (3.1ms)
+  Rendered recipes/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 28ms (Views: 19.2ms | ActiveRecord: 1.4ms)
+
+
+Started PATCH "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"Xoxoooo shabby chic offal polaroid gentrify truffaut goth.", "description"=>"Heirloom authentic yuccie. Tattooed vice meggings typewriter ramps. Banh mi bespoke twee next level vinegar mumblecore. Distillery farm-to-table master chillwave vegan bespoke fixie. Forage ethical kickstarter mlkshk food truck bespoke tote bag."}, "commit"=>"Update Recipe", "id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND ("recipes"."id" != $2) AND "recipes"."user_id" = $3 LIMIT $4[0m  [["name", "Xoxoooo shabby chic offal polaroid gentrify truffaut goth."], ["id", 5], ["user_id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (210.8ms)[0m  [1m[33mUPDATE "recipes" SET "name" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["name", "Xoxoooo shabby chic offal polaroid gentrify truffaut goth."], ["updated_at", "2018-11-19 06:51:44.726364"], ["id", 5]]
+  [1m[35m (33.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/recipes/5
+Completed 302 Found in 255ms (ActiveRecord: 245.7ms)
+
+
+Started GET "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 15.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 06:51:47 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 7]]
+  Rendered recipes/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 43ms (Views: 36.3ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/recipes/5" for 172.18.0.1 at 2018-11-19 06:51:52 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 5]]
+  [1m[35m (70.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 81ms (ActiveRecord: 72.4ms)
+
+
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 06:51:52 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 7]]
+  Rendered recipes/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 30ms (Views: 24.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/recipes/new" for 172.18.0.1 at 2018-11-19 06:52:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/_form.html.erb (3.8ms)
+  Rendered recipes/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 304ms (Views: 34.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/recipes" for 172.18.0.1 at 2018-11-19 06:52:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "recipe"=>{"name"=>"test", "description"=>"test description"}, "commit"=>"Create Recipe"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "test"], ["user_id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (151.0ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test"], ["description", "test description"], ["user_id", 7], ["created_at", "2018-11-19 06:52:11.610797"], ["updated_at", "2018-11-19 06:52:11.610797"]]
+  [1m[35m (42.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/recipes/35
+Completed 302 Found in 204ms (ActiveRecord: 195.3ms)
+
+
+Started GET "/recipes/35" for 172.18.0.1 at 2018-11-19 06:52:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["user_id", 7], ["id", 35], ["LIMIT", 1]]
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 16.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 06:52:17 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 7]]
+  Rendered recipes/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 28ms (Views: 23.2ms | ActiveRecord: 2.0ms)
+
+
