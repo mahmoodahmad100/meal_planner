@@ -1743,3 +1743,997 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 1.2ms)
 
 
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (13.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4539817668794235555)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMealPlans (20181119070539)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (663.5ms)[0m  [1m[35mCREATE TABLE "meal_plans" ("id" bigserial primary key, "start_date" date NOT NULL, "end_date" date NOT NULL, "user_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_9a2cda78eb"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (51.8ms)[0m  [1m[35mCREATE  INDEX  "index_meal_plans_on_user_id" ON "meal_plans"  ("user_id")[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181119070539"]]
+  [1m[35m (24.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateMeals (20181119071401)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (113.0ms)[0m  [1m[35mCREATE TABLE "meals" ("id" bigserial primary key)[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20181119071401"]]
+  [1m[35m (16.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (50.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4539817668794235555)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4539817668794235555)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4539817668794235555)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+Recipe::validity: test_0002_requires a description
+--------------------------------------------------
+  [1m[36mRecipe Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------------------------------------
+Recipe::validity: test_0005_does not require the name to be unique for different users
+--------------------------------------------------------------------------------------
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_1@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (25.9ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:22:46.932370"], ["updated_at", "2018-11-19 07:22:46.932370"], ["email", "example_1@example.com"], ["encrypted_password", "$2a$10$Ex2wHxHhWBjsiRsM7YNfNuj7tpzMmGxDxwQkOJ2oFtghXfjrNFNyS"], ["remember_token", "22668b4f7ca1557a8537eca1785228251dd7c056"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Blue bottle vegan carry keffiyeh ugh banh mi next level occupy."], ["user_id", 8], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Blue bottle vegan carry keffiyeh ugh banh mi next level occupy."], ["description", "Hoodie ennui scenester gentrify phlogiston meh chicharrones pitchfork. Butcher ramps twee tumblr banh mi occupy flannel tote bag. Lumbersexual letterpress heirloom. Sriracha tilde meditation vhs knausgaard."], ["user_id", 8], ["created_at", "2018-11-19 07:22:46.962872"], ["updated_at", "2018-11-19 07:22:46.962872"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" IS NULL LIMIT $2[0m  [["name", "Blue bottle vegan carry keffiyeh ugh banh mi next level occupy."], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------------
+Recipe::validity: test_0004_requires the name to be unique for the same user
+----------------------------------------------------------------------------
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_2@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:22:47.096723"], ["updated_at", "2018-11-19 07:22:47.096723"], ["email", "example_2@example.com"], ["encrypted_password", "$2a$10$2IZk62TAHNm97gcMqxbEWuEVMNHo1E81Bletqa00cAUgkp.GpAoRq"], ["remember_token", "7f5d828f78d1e2d2e2a5235e02d98135c1e73e37"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Pug typewriter venmo authentic butcher wayfarers slow-carb mlkshk celiac."], ["user_id", 9], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pug typewriter venmo authentic butcher wayfarers slow-carb mlkshk celiac."], ["description", "Chambray pop-up tofu next level truffaut readymade. Brunch cold-pressed fingerstache park chartreuse direct trade. Vhs neutra kickstarter tacos street. Austin green juice kogi kickstarter. Kombucha 8-bit pickled health tumblr."], ["user_id", 9], ["created_at", "2018-11-19 07:22:47.101362"], ["updated_at", "2018-11-19 07:22:47.101362"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Pug typewriter venmo authentic butcher wayfarers slow-carb mlkshk celiac."], ["user_id", 9], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------
+Recipe::validity: test_0001_requires a user
+-------------------------------------------
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------
+Recipe::validity: test_0003_requires a name
+-------------------------------------------
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5009.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "meal_planner_development"[0m
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 07:25:07 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 7]]
+  Rendered recipes/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 205ms (Views: 118.7ms | ActiveRecord: 11.4ms)
+
+
+Started DELETE "/sign_out" for 172.18.0.1 at 2018-11-19 07:25:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "4c6f0f60969afc3401ab1638df10834da6121dd1"], ["updated_at", "2018-11-19 07:25:11.293045"], ["id", 7]]
+  [1m[35m (24.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 50ms (ActiveRecord: 25.9ms)
+
+
+Started GET "/sign_in" for 172.18.0.1 at 2018-11-19 07:25:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/_form.html.erb (3.6ms)
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application (1109.6ms)
+Completed 200 OK in 1150ms (Views: 1149.8ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5009.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "meal_planner_development"[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5009.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "meal_planner_development"[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5009.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "meal_planner_development"[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (12.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (629.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "meal_planner_development"[0m
+  [1m[35m (476.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "meal_planner_test"[0m
+  [1m[35m (1642.5ms)[0m  [1m[35mCREATE DATABASE "meal_planner_development" ENCODING = 'unicode'[0m
+  [1m[35m (996.4ms)[0m  [1m[35mCREATE DATABASE "meal_planner_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "meal_plans" CASCADE[0m
+  [1m[35m (78.3ms)[0m  [1m[35mCREATE TABLE "meal_plans" ("id" bigserial primary key, "start_date" date NOT NULL, "end_date" date NOT NULL, "user_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (63.6ms)[0m  [1m[35mCREATE  INDEX  "index_meal_plans_on_user_id" ON "meal_plans"  ("user_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "meals" CASCADE[0m
+  [1m[35m (65.8ms)[0m  [1m[35mCREATE TABLE "meals" ("id" bigserial primary key)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "recipes" CASCADE[0m
+  [1m[35m (109.7ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying NOT NULL, "description" text NOT NULL, "user_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (64.4ms)[0m  [1m[35mCREATE  INDEX  "index_recipes_on_user_id_and_name" ON "recipes"  ("user_id", "name")[0m
+  [1m[35m (63.9ms)[0m  [1m[35mCREATE  INDEX  "index_recipes_on_user_id" ON "recipes"  ("user_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (121.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "email" character varying NOT NULL, "encrypted_password" character varying(128) NOT NULL, "confirmation_token" character varying(128), "remember_token" character varying(128) NOT NULL)[0m
+  [1m[35m (64.8ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (64.8ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_remember_token" ON "users"  ("remember_token")[0m
+  [1m[35m (32.3ms)[0m  [1m[35mALTER TABLE "meal_plans" ADD CONSTRAINT "fk_rails_9a2cda78eb"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (9.8ms)[0m  [1m[35mALTER TABLE "recipes" ADD CONSTRAINT "fk_rails_9606fce865"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (132.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (9.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181119071401)[0m
+  [1m[35m (10.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20181024184634),
+(20181020115610),
+(20181119070539);
+
+[0m
+  [1m[35m (110.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-11-19 07:28:21.909044"], ["updated_at", "2018-11-19 07:28:21.909044"]]
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "meal_plans" CASCADE[0m
+  [1m[35m (82.4ms)[0m  [1m[35mCREATE TABLE "meal_plans" ("id" bigserial primary key, "start_date" date NOT NULL, "end_date" date NOT NULL, "user_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (74.8ms)[0m  [1m[35mCREATE  INDEX  "index_meal_plans_on_user_id" ON "meal_plans"  ("user_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "meals" CASCADE[0m
+  [1m[35m (76.6ms)[0m  [1m[35mCREATE TABLE "meals" ("id" bigserial primary key)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "recipes" CASCADE[0m
+  [1m[35m (121.4ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying NOT NULL, "description" text NOT NULL, "user_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (75.1ms)[0m  [1m[35mCREATE  INDEX  "index_recipes_on_user_id_and_name" ON "recipes"  ("user_id", "name")[0m
+  [1m[35m (75.8ms)[0m  [1m[35mCREATE  INDEX  "index_recipes_on_user_id" ON "recipes"  ("user_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (143.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "email" character varying NOT NULL, "encrypted_password" character varying(128) NOT NULL, "confirmation_token" character varying(128), "remember_token" character varying(128) NOT NULL)[0m
+  [1m[35m (64.5ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (64.9ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_remember_token" ON "users"  ("remember_token")[0m
+  [1m[35m (10.3ms)[0m  [1m[35mALTER TABLE "meal_plans" ADD CONSTRAINT "fk_rails_9a2cda78eb"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (10.5ms)[0m  [1m[35mALTER TABLE "recipes" ADD CONSTRAINT "fk_rails_9606fce865"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (110.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (8.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181119071401)[0m
+  [1m[35m (10.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20181024184634),
+(20181020115610),
+(20181119070539);
+
+[0m
+  [1m[35m (110.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-11-19 07:28:23.015244"], ["updated_at", "2018-11-19 07:28:23.015244"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2018-11-19 07:28:23.025841"], ["key", "environment"]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "recipes"[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:28:23.248349"], ["updated_at", "2018-11-19 07:28:23.248349"], ["email", "test@example.com"], ["encrypted_password", "$2a$10$97M2Tptc77MiWhtLdMMyUutqcxagJg6pJoh5XKoK/BcasY0qnkaO."], ["remember_token", "49e4f4952d966c11e7ec4c7578c1264ac01ff19b"]]
+  [1m[35m (16.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Forage crucifix kale chips lomo ramps celiac 3 wolf moon hammock."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Forage crucifix kale chips lomo ramps celiac 3 wolf moon hammock."], ["description", "Jean shorts vinyl plaid twee etsy park. Readymade tumblr roof humblebrag mustache. Fanny pack direct trade plaid. 8-bit muggle magic ugh cleanse next level franzen."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.008140"], ["updated_at", "2018-11-19 07:28:24.008140"]]
+  [1m[35m (12.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Diy kinfolk small batch butcher."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Diy kinfolk small batch butcher."], ["description", "Heirloom locavore twee 90's. Leggings ennui artisan vice offal banjo brunch. Lo-fi tacos ethical mixtape ramps. Fingerstache authentic vinegar."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.026194"], ["updated_at", "2018-11-19 07:28:24.026194"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Salvia fashion axe waistcoat wolf tumblr heirloom pop-up."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Salvia fashion axe waistcoat wolf tumblr heirloom pop-up."], ["description", "Narwhal whatever mixtape. Tumblr drinking pabst offal cornhole mustache pop-up meggings. Franzen poutine pickled muggle magic carry whatever viral. Tacos kitsch retro chillwave synth. Pbr&b diy freegan pork belly raw denim."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.037092"], ["updated_at", "2018-11-19 07:28:24.037092"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Jean shorts mumblecore hashtag master retro wolf messenger bag."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Jean shorts mumblecore hashtag master retro wolf messenger bag."], ["description", "Forage fanny pack yr helvetica 90's narwhal cold-pressed typewriter. Knausgaard bespoke 3 wolf moon bushwick street umami. Health vinyl schlitz mumblecore intelligentsia loko fanny pack tousled. Deep v truffaut organic squid chillwave single-origin coffee yuccie keytar."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.048157"], ["updated_at", "2018-11-19 07:28:24.048157"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Pug put a bird on it kinfolk 8-bit."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pug put a bird on it kinfolk 8-bit."], ["description", "Loko slow-carb chicharrones offal wes anderson bitters. Etsy goth yolo ugh cleanse 3 wolf moon brunch. Brooklyn kitsch waistcoat kinfolk."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.059345"], ["updated_at", "2018-11-19 07:28:24.059345"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Quinoa irony selvage messenger bag forage cray paleo shabby chic pug."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Quinoa irony selvage messenger bag forage cray paleo shabby chic pug."], ["description", "Trust fund ennui plaid intelligentsia. Narwhal mixtape tofu pbr&b umami godard farm-to-table lumbersexual. Tattooed pug fixie leggings chillwave semiotics."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.070590"], ["updated_at", "2018-11-19 07:28:24.070590"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Street fingerstache brunch pitchfork bespoke synth."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Street fingerstache brunch pitchfork bespoke synth."], ["description", "Semiotics iphone post-ironic skateboard bespoke. Sustainable hella authentic scenester kitsch. Park organic deep v neutra locavore knausgaard listicle."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.081500"], ["updated_at", "2018-11-19 07:28:24.081500"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Wayfarers pour-over artisan pitchfork."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Wayfarers pour-over artisan pitchfork."], ["description", "Put a bird on it portland ennui meditation microdosing. Art party ramps chicharrones polaroid. Post-ironic mlkshk chillwave selvage. Mlkshk craft beer sartorial quinoa. Ethical five dollar toast bicycle rights meh next level messenger bag chia roof."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.092762"], ["updated_at", "2018-11-19 07:28:24.092762"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Irony wolf street tote bag marfa drinking helvetica synth."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Irony wolf street tote bag marfa drinking helvetica synth."], ["description", "Helvetica cliche vinyl post-ironic 8-bit. Meh everyday bitters disrupt. Literally fanny pack viral banjo. Gentrify seitan drinking farm-to-table diy. Blue bottle schlitz tacos cleanse."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.103797"], ["updated_at", "2018-11-19 07:28:24.103797"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Occupy wayfarers gluten-free mustache chillwave goth hashtag meh."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Occupy wayfarers gluten-free mustache chillwave goth hashtag meh."], ["description", "Tousled church-key yuccie fixie. Leggings kombucha ethical master selvage neutra try-hard. Shabby chic wes anderson farm-to-table knausgaard yr scenester helvetica put a bird on it."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.114990"], ["updated_at", "2018-11-19 07:28:24.114990"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Hashtag vhs celiac mumblecore kinfolk yr cold-pressed gentrify organic."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hashtag vhs celiac mumblecore kinfolk yr cold-pressed gentrify organic."], ["description", "Park cray master distillery. Sustainable farm-to-table squid art party chartreuse raw denim kitsch wayfarers. Mumblecore disrupt craft beer +1 3 wolf moon photo booth."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.135696"], ["updated_at", "2018-11-19 07:28:24.135696"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Kale chips poutine keytar yuccie mumblecore."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kale chips poutine keytar yuccie mumblecore."], ["description", "Pour-over neutra street helvetica. Lo-fi pinterest yolo drinking synth fingerstache keffiyeh. Hammock next level chicharrones pickled jean shorts pop-up."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.148236"], ["updated_at", "2018-11-19 07:28:24.148236"]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Offal microdosing pickled tofu franzen."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Offal microdosing pickled tofu franzen."], ["description", "Hoodie cardigan dreamcatcher +1 seitan. Humblebrag meditation jean shorts. Thundercats pug cardigan marfa migas carry church-key. Master fixie chambray poutine biodiesel church-key bitters."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.159369"], ["updated_at", "2018-11-19 07:28:24.159369"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "+1 beard meh chillwave ugh."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "+1 beard meh chillwave ugh."], ["description", "Bushwick cliche chia tofu blue bottle. Farm-to-table bespoke meditation yr waistcoat semiotics. Keytar lo-fi portland artisan twee beard thundercats. Trust fund mixtape butcher narwhal stumptown."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.170503"], ["updated_at", "2018-11-19 07:28:24.170503"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Hashtag cliche hammock occupy typewriter hella."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Hashtag cliche hammock occupy typewriter hella."], ["description", "Master health portland cold-pressed brunch chicharrones. Vegan keytar hashtag gluten-free. Hashtag distillery master photo booth bitters. Microdosing blue bottle humblebrag brunch."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.181252"], ["updated_at", "2018-11-19 07:28:24.181252"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Raw denim 90's chicharrones forage crucifix."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Raw denim 90's chicharrones forage crucifix."], ["description", "Farm-to-table crucifix xoxo wes anderson leggings fingerstache occupy. Vinegar everyday vhs yr. Gastropub kombucha pop-up pork belly cray put a bird on it. Direct trade pop-up next level gentrify knausgaard."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.192297"], ["updated_at", "2018-11-19 07:28:24.192297"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Cronut jean shorts 8-bit master keytar."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cronut jean shorts 8-bit master keytar."], ["description", "Meditation put a bird on it you probably haven't heard of them marfa lomo mustache poutine. Twee marfa bicycle rights fashion axe. Kombucha brooklyn kickstarter portland. Try-hard quinoa viral seitan put a bird on it."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.203552"], ["updated_at", "2018-11-19 07:28:24.203552"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Trust fund mlkshk kickstarter bicycle rights meggings seitan."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Trust fund mlkshk kickstarter bicycle rights meggings seitan."], ["description", "Hammock shoreditch direct trade. 3 wolf moon shabby chic helvetica truffaut squid venmo pour-over mumblecore. Tilde bitters try-hard thundercats pbr&b messenger bag pinterest poutine."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.215953"], ["updated_at", "2018-11-19 07:28:24.215953"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Lo-fi skateboard bicycle rights etsy pug."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lo-fi skateboard bicycle rights etsy pug."], ["description", "Taxidermy bicycle rights locavore cliche. Thundercats craft beer letterpress neutra health. Dreamcatcher normcore ugh messenger bag umami artisan 90's single-origin coffee. Pitchfork gluten-free plaid kickstarter drinking street semiotics."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.226273"], ["updated_at", "2018-11-19 07:28:24.226273"]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Gastropub readymade listicle mumblecore occupy kogi."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gastropub readymade listicle mumblecore occupy kogi."], ["description", "Cray echo etsy fingerstache jean shorts. Mlkshk bitters goth. Ugh sartorial hoodie 8-bit lomo knausgaard church-key godard."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.237522"], ["updated_at", "2018-11-19 07:28:24.237522"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Seitan craft beer actually blog tumblr next level."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Seitan craft beer actually blog tumblr next level."], ["description", "Selvage hoodie plaid vegan humblebrag. Cronut helvetica echo shoreditch single-origin coffee. Chillwave sartorial goth occupy cray meggings loko five dollar toast."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.248279"], ["updated_at", "2018-11-19 07:28:24.248279"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Chillwave fingerstache sustainable taxidermy williamsburg tousled."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chillwave fingerstache sustainable taxidermy williamsburg tousled."], ["description", "3 wolf moon pitchfork offal. Trust fund yolo master locavore direct trade seitan ennui chambray. Green juice pop-up yuccie. Post-ironic plaid cardigan pickled."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.259570"], ["updated_at", "2018-11-19 07:28:24.259570"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Etsy phlogiston forage offal vegan chambray cornhole."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Etsy phlogiston forage offal vegan chambray cornhole."], ["description", "Retro chillwave vinegar single-origin coffee gentrify brooklyn selfies distillery. Before they sold out gentrify leggings lo-fi distillery kombucha tattooed trust fund. Selvage vice blog direct trade. Microdosing tacos green juice mustache. Tote bag craft beer swag food truck hashtag single-origin coffee typewriter keffiyeh."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.271170"], ["updated_at", "2018-11-19 07:28:24.271170"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Migas yuccie kombucha loko meditation jean shorts chartreuse wolf."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Migas yuccie kombucha loko meditation jean shorts chartreuse wolf."], ["description", "Xoxo pabst brooklyn. Asymmetrical narwhal cleanse aesthetic vegan selvage polaroid next level. Kogi tattooed tacos food truck lumbersexual blue bottle skateboard. Photo booth mumblecore sriracha offal cray drinking."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.281419"], ["updated_at", "2018-11-19 07:28:24.281419"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Tote bag pbr&b umami cronut ethical typewriter kitsch."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tote bag pbr&b umami cronut ethical typewriter kitsch."], ["description", "Pug occupy food truck paleo. Church-key shoreditch locavore hella pitchfork blue bottle chia. Keytar everyday kinfolk. Sriracha yolo chicharrones food truck messenger bag ethical."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.292666"], ["updated_at", "2018-11-19 07:28:24.292666"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Cliche post-ironic occupy sartorial tumblr knausgaard beard celiac vice."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cliche post-ironic occupy sartorial tumblr knausgaard beard celiac vice."], ["description", "Intelligentsia viral post-ironic synth. Ugh quinoa shabby chic biodiesel meditation tilde lumbersexual health. Cred ennui church-key. Cold-pressed everyday kombucha health austin. Sriracha pabst health leggings asymmetrical pitchfork disrupt freegan."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.303842"], ["updated_at", "2018-11-19 07:28:24.303842"]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Kombucha cray venmo fanny pack next level poutine loko."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kombucha cray venmo fanny pack next level poutine loko."], ["description", "Yuccie keytar xoxo. Franzen thundercats cronut umami etsy. Chillwave plaid polaroid put a bird on it truffaut bespoke. Keffiyeh vegan scenester. Vhs ugh fashion axe organic hashtag banh mi polaroid."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.316384"], ["updated_at", "2018-11-19 07:28:24.316384"]]
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Knausgaard echo bitters chillwave goth neutra plaid."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Knausgaard echo bitters chillwave goth neutra plaid."], ["description", "Intelligentsia shoreditch semiotics five dollar toast banjo. Artisan narwhal vinyl. Umami fashion axe 8-bit goth skateboard. Quinoa raw denim kitsch lomo schlitz forage."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.326321"], ["updated_at", "2018-11-19 07:28:24.326321"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Etsy irony pbr&b hella drinking bushwick."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Etsy irony pbr&b hella drinking bushwick."], ["description", "Leggings literally muggle magic aesthetic. Kinfolk street pitchfork dreamcatcher blog +1 brooklyn pabst. Jean shorts you probably haven't heard of them pbr&b vice wes anderson tofu."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.337363"], ["updated_at", "2018-11-19 07:28:24.337363"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Irony etsy heirloom sartorial sriracha."], ["user_id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Irony etsy heirloom sartorial sriracha."], ["description", "Cold-pressed waistcoat intelligentsia. Meh flannel banjo thundercats cleanse poutine. Lomo banjo knausgaard. Chia small batch 3 wolf moon helvetica lo-fi."], ["user_id", 1], ["created_at", "2018-11-19 07:28:24.348717"], ["updated_at", "2018-11-19 07:28:24.348717"]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/sign_in" for 172.18.0.1 at 2018-11-19 07:28:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/_form.html.erb (61.3ms)
+  Rendered /usr/local/bundle/gems/clearance-1.15.1/app/views/sessions/new.html.erb within layouts/application (860.4ms)
+Completed 200 OK in 1293ms (Views: 1291.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for 172.18.0.1 at 2018-11-19 07:28:49 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"test@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "test@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 184ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/" for 172.18.0.1 at 2018-11-19 07:28:49 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#show as HTML
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "49e4f4952d966c11e7ec4c7578c1264ac01ff19b"], ["LIMIT", 1]]
+Completed 200 OK in 36ms (Views: 18.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 07:28:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "49e4f4952d966c11e7ec4c7578c1264ac01ff19b"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 1]]
+  Rendered recipes/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 175ms (Views: 68.6ms | ActiveRecord: 5.4ms)
+
+
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------------------------------------------
+MealPlan::generating a weekly plan::with more days than recipes: test_0001_build valid meals
+--------------------------------------------------------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_1@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (26.6ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:14.319004"], ["updated_at", "2018-11-19 07:47:14.319004"], ["email", "example_1@example.com"], ["encrypted_password", "$2a$10$dJAMmxF7ec6n1EE.RwK9bOxvjKpaUAGiRjv1N.ikPlxW7BZGH72yW"], ["remember_token", "a8d19c1abae4e4b72642fbfdc933c72663f914cd"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Brunch tumblr irony disrupt bitters five dollar toast chambray."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Brunch tumblr irony disrupt bitters five dollar toast chambray."], ["description", "Twee viral scenester tattooed mustache. Gentrify pork belly kogi. Skateboard everyday aesthetic helvetica five dollar toast messenger bag."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.458102"], ["updated_at", "2018-11-19 07:47:15.458102"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Loko tote bag fashion axe hoodie."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Loko tote bag fashion axe hoodie."], ["description", "Messenger bag xoxo chartreuse raw denim listicle. Flannel gentrify kale chips austin paleo listicle offal. 90's lomo truffaut lo-fi literally master loko church-key. Cred pork belly swag."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.466165"], ["updated_at", "2018-11-19 07:47:15.466165"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Farm-to-table flexitarian direct trade food truck blog ennui cold-pressed."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Farm-to-table flexitarian direct trade food truck blog ennui cold-pressed."], ["description", "Listicle 8-bit retro ennui banh mi health. Bushwick fashion axe lumbersexual schlitz. Neutra cold-pressed paleo kinfolk. Kinfolk fingerstache tumblr distillery squid disrupt gastropub fixie."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.471759"], ["updated_at", "2018-11-19 07:47:15.471759"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Post-ironic intelligentsia jean shorts twee goth tilde."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Post-ironic intelligentsia jean shorts twee goth tilde."], ["description", "Kitsch 3 wolf moon lo-fi gentrify intelligentsia godard cold-pressed. Helvetica microdosing xoxo whatever typewriter slow-carb cornhole. Muggle magic craft beer stumptown five dollar toast."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.477471"], ["updated_at", "2018-11-19 07:47:15.477471"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Ethical pickled literally lo-fi meditation next level kickstarter tumblr."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ethical pickled literally lo-fi meditation next level kickstarter tumblr."], ["description", "90's put a bird on it selvage deep v leggings fixie crucifix slow-carb. Portland pop-up literally gentrify normcore kogi. Brunch blue bottle readymade raw denim banh mi flannel pork belly. Swag bitters phlogiston banh mi synth irony wolf kombucha."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.486299"], ["updated_at", "2018-11-19 07:47:15.486299"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Gluten-free echo freegan single-origin coffee bushwick 90's salvia lo-fi mumblecore."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gluten-free echo freegan single-origin coffee bushwick 90's salvia lo-fi mumblecore."], ["description", "Cray cred offal. Kickstarter williamsburg bushwick. Hashtag mlkshk etsy. Viral lo-fi meditation. Put a bird on it vegan sriracha."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.491212"], ["updated_at", "2018-11-19 07:47:15.491212"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Truffaut retro literally gentrify."], ["user_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Truffaut retro literally gentrify."], ["description", "Craft beer letterpress meggings shabby chic ethical irony mlkshk. Ugh ramps semiotics marfa cardigan shabby chic fingerstache blue bottle. Yuccie cronut vinyl you probably haven't heard of them austin small batch roof. Street pop-up roof quinoa. Raw denim mustache literally."], ["user_id", 2], ["created_at", "2018-11-19 07:47:15.496570"], ["updated_at", "2018-11-19 07:47:15.496570"]]
+  [1m[35m (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "recipes"."id" FROM "recipes" WHERE "recipes"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------------------------------------------------------------
+MealPlan::generating a weekly plan::with more days than recipes: test_0002_reuses recipes where necessary
+---------------------------------------------------------------------------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_2@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:15.675118"], ["updated_at", "2018-11-19 07:47:15.675118"], ["email", "example_2@example.com"], ["encrypted_password", "$2a$10$efGrtudJs9RTXspoIBAzCO8fhsWzToqCyAk93lGdjxixrQ81XNi0e"], ["remember_token", "3da0b64552762c0a3caf98feb86056b2a8f660de"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Xoxo bespoke vinyl hoodie venmo everyday."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Xoxo bespoke vinyl hoodie venmo everyday."], ["description", "Kombucha plaid cronut. Chambray sriracha wes anderson distillery meditation. Crucifix phlogiston whatever. Tote bag church-key photo booth kogi brooklyn small batch."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.683404"], ["updated_at", "2018-11-19 07:47:15.683404"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Fingerstache kogi kale chips beard austin offal you probably haven't heard of them."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fingerstache kogi kale chips beard austin offal you probably haven't heard of them."], ["description", "Neutra kogi ramps pickled tilde polaroid ennui authentic. Tousled craft beer brooklyn meggings semiotics everyday. Migas bespoke cred locavore chambray ennui crucifix."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.688153"], ["updated_at", "2018-11-19 07:47:15.688153"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Pbr&b sartorial deep v beard kombucha."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pbr&b sartorial deep v beard kombucha."], ["description", "Tote bag messenger bag leggings portland cleanse neutra ramps biodiesel. Vice bespoke diy. Fixie leggings offal keytar cronut tattooed."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.692683"], ["updated_at", "2018-11-19 07:47:15.692683"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Shabby chic austin authentic mustache bicycle rights slow-carb jean shorts master."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Shabby chic austin authentic mustache bicycle rights slow-carb jean shorts master."], ["description", "Intelligentsia carry ramps venmo wes anderson distillery. Fixie put a bird on it everyday forage try-hard bespoke skateboard. Fixie wes anderson cornhole humblebrag. Tumblr shabby chic mlkshk everyday loko craft beer kinfolk wolf. Iphone selvage keytar tacos five dollar toast messenger bag everyday."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.700250"], ["updated_at", "2018-11-19 07:47:15.700250"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Microdosing kitsch polaroid street mustache chartreuse fashion axe food truck."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Microdosing kitsch polaroid street mustache chartreuse fashion axe food truck."], ["description", "Mlkshk roof readymade tilde. Gastropub actually chillwave tote bag pbr&b cred crucifix food truck. Tote bag park kickstarter. Tacos tote bag direct trade drinking pug 90's semiotics literally."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.705480"], ["updated_at", "2018-11-19 07:47:15.705480"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Taxidermy scenester biodiesel retro beard salvia brooklyn selfies."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Taxidermy scenester biodiesel retro beard salvia brooklyn selfies."], ["description", "Flannel celiac sartorial messenger bag. Waistcoat echo hella biodiesel celiac. Meggings sriracha kogi vhs vegan artisan. Readymade pickled park celiac."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.711470"], ["updated_at", "2018-11-19 07:47:15.711470"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Deep v gluten-free aesthetic drinking retro austin."], ["user_id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Deep v gluten-free aesthetic drinking retro austin."], ["description", "Austin etsy listicle chartreuse migas. Cronut pug keffiyeh deep v kombucha. Pour-over meditation celiac banjo pitchfork cardigan."], ["user_id", 3], ["created_at", "2018-11-19 07:47:15.718949"], ["updated_at", "2018-11-19 07:47:15.718949"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "recipes"."id" FROM "recipes" WHERE "recipes"."user_id" = $1[0m  [["user_id", 3]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------
+MealPlan::generating a weekly plan: test_0002_builds valid meals
+----------------------------------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_3@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:15.865946"], ["updated_at", "2018-11-19 07:47:15.865946"], ["email", "example_3@example.com"], ["encrypted_password", "$2a$10$NSgim0gV24SuJDlFNVutDe.Ii89EDVb4xy3OJyhB/cRx8e/oOigBm"], ["remember_token", "fdefcbcb1390c4d07bad6b427a86155501e4fc5e"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Tumblr heirloom selvage pug small batch five dollar toast hella mustache."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tumblr heirloom selvage pug small batch five dollar toast hella mustache."], ["description", "Tacos echo put a bird on it everyday pabst tousled yr. Gastropub health humblebrag put a bird on it echo keffiyeh actually bushwick. Meggings post-ironic lumbersexual portland."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.871829"], ["updated_at", "2018-11-19 07:47:15.871829"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Retro iphone health crucifix."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Retro iphone health crucifix."], ["description", "Pabst sustainable literally. Raw denim ethical banjo pitchfork cred tacos etsy franzen. Literally austin tattooed."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.877880"], ["updated_at", "2018-11-19 07:47:15.877880"]]
+  [1m[35m (1.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Raw denim yr mlkshk shoreditch tofu umami shabby chic."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Raw denim yr mlkshk shoreditch tofu umami shabby chic."], ["description", "Occupy austin normcore semiotics marfa locavore. Literally hammock church-key polaroid wes anderson narwhal wayfarers. Park synth dreamcatcher raw denim. Lumbersexual fashion axe vegan chambray pbr&b blog marfa chillwave. Gastropub pork belly crucifix cronut craft beer keffiyeh chambray."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.885987"], ["updated_at", "2018-11-19 07:47:15.885987"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Cray scenester bicycle rights bespoke goth 3 wolf moon quinoa chicharrones lomo."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cray scenester bicycle rights bespoke goth 3 wolf moon quinoa chicharrones lomo."], ["description", "Cornhole wes anderson tilde carry sartorial. Ugh lo-fi chillwave helvetica vinegar wolf. Sustainable keffiyeh try-hard letterpress stumptown street. Slow-carb tofu leggings venmo plaid salvia mumblecore before they sold out."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.891323"], ["updated_at", "2018-11-19 07:47:15.891323"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Mumblecore disrupt artisan try-hard."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mumblecore disrupt artisan try-hard."], ["description", "Mlkshk shabby chic master irony. Goth cardigan kale chips cred dreamcatcher plaid roof kickstarter. Flannel cleanse sartorial retro. Drinking 3 wolf moon meggings slow-carb swag vegan single-origin coffee."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.897183"], ["updated_at", "2018-11-19 07:47:15.897183"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Carry knausgaard microdosing locavore shabby chic slow-carb cleanse art party organic."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Carry knausgaard microdosing locavore shabby chic slow-carb cleanse art party organic."], ["description", "Ethical venmo selfies mlkshk wolf aesthetic drinking. Readymade banh mi semiotics tumblr skateboard goth actually scenester. Trust fund meditation single-origin coffee semiotics mlkshk organic. Quinoa roof brooklyn tacos pitchfork pour-over."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.904414"], ["updated_at", "2018-11-19 07:47:15.904414"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Taxidermy waistcoat yolo synth."], ["user_id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (3.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Taxidermy waistcoat yolo synth."], ["description", "Kitsch stumptown yuccie cronut keytar church-key 3 wolf moon small batch. Small batch freegan narwhal. Viral pinterest single-origin coffee deep v synth vinegar heirloom ethical. Chambray selfies before they sold out street jean shorts."], ["user_id", 4], ["created_at", "2018-11-19 07:47:15.910406"], ["updated_at", "2018-11-19 07:47:15.910406"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "recipes"."id" FROM "recipes" WHERE "recipes"."user_id" = $1[0m  [["user_id", 4]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------------------------------------------------
+MealPlan::generating a weekly plan: test_0001_populates a meal for each date between start and end
+--------------------------------------------------------------------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_4@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:16.060986"], ["updated_at", "2018-11-19 07:47:16.060986"], ["email", "example_4@example.com"], ["encrypted_password", "$2a$10$1IxV4k7bIJsWBOTX6m1LOuDvwpPsSY.PUKiJqlH2yZzIsN9WNEATy"], ["remember_token", "36ab9d0c0caf72fd14c8031632ea5a19fe39f472"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "3 wolf moon ethical kitsch pug occupy kombucha."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "3 wolf moon ethical kitsch pug occupy kombucha."], ["description", "Actually single-origin coffee freegan cleanse mixtape distillery. Cred keytar disrupt jean shorts meggings fingerstache. Wes anderson phlogiston vhs kombucha chillwave vice messenger bag. Church-key kitsch gastropub shabby chic pabst taxidermy cleanse."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.068920"], ["updated_at", "2018-11-19 07:47:16.068920"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Cliche jean shorts seitan wes anderson bicycle rights tote bag."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cliche jean shorts seitan wes anderson bicycle rights tote bag."], ["description", "Tote bag schlitz craft beer wolf. Schlitz crucifix quinoa twee lomo you probably haven't heard of them typewriter sriracha. Hashtag health polaroid post-ironic direct trade umami stumptown. Bicycle rights street tumblr fingerstache keytar etsy. Organic hella semiotics paleo disrupt intelligentsia."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.074390"], ["updated_at", "2018-11-19 07:47:16.074390"]]
+  [1m[35m (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Before they sold out sartorial etsy offal 8-bit cleanse."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Before they sold out sartorial etsy offal 8-bit cleanse."], ["description", "Microdosing leggings umami twee art party. Irony chicharrones schlitz heirloom. Venmo meh yuccie bushwick yr chicharrones stumptown phlogiston. Gastropub kitsch wes anderson marfa polaroid."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.082460"], ["updated_at", "2018-11-19 07:47:16.082460"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Beard heirloom cold-pressed everyday tattooed."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Beard heirloom cold-pressed everyday tattooed."], ["description", "Venmo chambray cold-pressed ramps 3 wolf moon flexitarian bushwick. Cold-pressed shoreditch cornhole fixie. Fanny pack yolo quinoa goth synth lomo sustainable. Chicharrones twee beard bushwick."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.087342"], ["updated_at", "2018-11-19 07:47:16.087342"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Polaroid +1 raw denim readymade letterpress listicle."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Polaroid +1 raw denim readymade letterpress listicle."], ["description", "Fixie flexitarian meditation waistcoat pbr&b hella taxidermy letterpress. Pop-up scenester polaroid cardigan synth cold-pressed mumblecore leggings. Banjo locavore normcore knausgaard distillery brunch disrupt 3 wolf moon. Pug put a bird on it trust fund roof pbr&b readymade twee. Tofu cray everyday yolo gluten-free wolf."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.092128"], ["updated_at", "2018-11-19 07:47:16.092128"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Tilde pork belly williamsburg selvage."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tilde pork belly williamsburg selvage."], ["description", "Next level swag phlogiston. Selfies blue bottle chambray forage retro actually chicharrones direct trade. Fingerstache photo booth tacos pug yuccie ethical. 90's ugh wolf everyday pour-over chambray keytar."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.099471"], ["updated_at", "2018-11-19 07:47:16.099471"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Viral literally five dollar toast ennui try-hard cred vinegar art party."], ["user_id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Viral literally five dollar toast ennui try-hard cred vinegar art party."], ["description", "Street 3 wolf moon blue bottle selvage selfies green juice etsy williamsburg. Blog kickstarter hella brooklyn organic typewriter gentrify vice. Pop-up schlitz craft beer."], ["user_id", 5], ["created_at", "2018-11-19 07:47:16.104410"], ["updated_at", "2018-11-19 07:47:16.104410"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------------------
+MealPlan::generating a weekly plan: test_0003_uses unique recipes
+-----------------------------------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_5@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:16.243747"], ["updated_at", "2018-11-19 07:47:16.243747"], ["email", "example_5@example.com"], ["encrypted_password", "$2a$10$TD3Jfixwvde6foI.j5WgyuoFXSTtZXpQGrygT09KtI6ARPaCLJtXm"], ["remember_token", "5924886b06b1c722c4543c46b8bea39c3364da7b"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Readymade tote bag wolf etsy pbr&b single-origin coffee dreamcatcher cronut."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Readymade tote bag wolf etsy pbr&b single-origin coffee dreamcatcher cronut."], ["description", "Austin semiotics whatever. Trust fund migas messenger bag etsy sartorial put a bird on it austin. Yr kitsch 90's quinoa neutra fashion axe. Art party cleanse flannel mumblecore."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.251861"], ["updated_at", "2018-11-19 07:47:16.251861"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Ennui photo booth lo-fi trust fund sartorial street small batch."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ennui photo booth lo-fi trust fund sartorial street small batch."], ["description", "Tilde retro pork belly truffaut mustache chia diy. Pbr&b wayfarers mlkshk taxidermy austin meh. Photo booth carry health brunch tattooed lomo. Try-hard blog pbr&b cliche typewriter before they sold out art party brooklyn. Letterpress meggings 90's retro leggings bushwick."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.256872"], ["updated_at", "2018-11-19 07:47:16.256872"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Chartreuse celiac xoxo squid tilde neutra readymade twee banjo."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Chartreuse celiac xoxo squid tilde neutra readymade twee banjo."], ["description", "Tacos iphone skateboard leggings. Fixie chartreuse shoreditch gastropub actually kickstarter synth phlogiston. Cronut literally pour-over deep v. Vinyl organic authentic pug pork belly shoreditch."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.262033"], ["updated_at", "2018-11-19 07:47:16.262033"]]
+  [1m[35m (0.8ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Pickled keytar next level viral post-ironic street portland franzen."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pickled keytar next level viral post-ironic street portland franzen."], ["description", "Keffiyeh beard cronut. Street yr blog plaid pour-over. Ugh sriracha hoodie hashtag iphone."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.269084"], ["updated_at", "2018-11-19 07:47:16.269084"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Umami bushwick gentrify mustache vice kogi."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Umami bushwick gentrify mustache vice kogi."], ["description", "Neutra sriracha distillery goth deep v. Organic food truck kale chips. Messenger bag street chambray meggings."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.273950"], ["updated_at", "2018-11-19 07:47:16.273950"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Skateboard godard gentrify forage vinegar biodiesel."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Skateboard godard gentrify forage vinegar biodiesel."], ["description", "Normcore vinegar typewriter bitters goth kale chips chambray. Chicharrones twee hoodie chia master meditation. 90's forage lomo irony."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.282233"], ["updated_at", "2018-11-19 07:47:16.282233"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Fingerstache meggings hammock lo-fi kale chips muggle magic offal keytar."], ["user_id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fingerstache meggings hammock lo-fi kale chips muggle magic offal keytar."], ["description", "Cliche wolf vegan roof hashtag crucifix kombucha. Sartorial kitsch bespoke. Pop-up 8-bit brooklyn tacos. Brooklyn flannel +1 hoodie stumptown williamsburg tacos. Letterpress lo-fi forage leggings hoodie slow-carb next level."], ["user_id", 6], ["created_at", "2018-11-19 07:47:16.287869"], ["updated_at", "2018-11-19 07:47:16.287869"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "recipes"."id" FROM "recipes" WHERE "recipes"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------
+Meal::validity: test_0003_requires a recipe
+-------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------
+Meal::validity: test_0001_requires a date
+-----------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+Meal::validity: test_0002_requires a meal_plan
+----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+Recipe::validity: test_0002_requires a description
+--------------------------------------------------
+  [1m[36mRecipe Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------------------------------------
+Recipe::validity: test_0005_does not require the name to be unique for different users
+--------------------------------------------------------------------------------------
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_6@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:16.511301"], ["updated_at", "2018-11-19 07:47:16.511301"], ["email", "example_6@example.com"], ["encrypted_password", "$2a$10$HaPMOM.PnVtfkguudebFP.p268TWlTOlnoZbezG.FlYyLDOpzNXAa"], ["remember_token", "d40e2661ab62d87430c7e09e772b9a1107125ebd"]]
+  [1m[35m (0.7ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Farm-to-table crucifix keffiyeh wes anderson health twee kickstarter."], ["user_id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Farm-to-table crucifix keffiyeh wes anderson health twee kickstarter."], ["description", "Dreamcatcher selfies chartreuse cronut single-origin coffee. Fixie shabby chic venmo distillery. Tattooed microdosing readymade meh kickstarter iphone crucifix. Franzen kombucha gentrify literally."], ["user_id", 7], ["created_at", "2018-11-19 07:47:16.518295"], ["updated_at", "2018-11-19 07:47:16.518295"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" IS NULL LIMIT $2[0m  [["name", "Farm-to-table crucifix keffiyeh wes anderson health twee kickstarter."], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------
+Recipe::validity: test_0003_requires a name
+-------------------------------------------
+  [1m[36mRecipe Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------------
+Recipe::validity: test_0004_requires the name to be unique for the same user
+----------------------------------------------------------------------------
+  [1m[36mRecipe Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example_7@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2018-11-19 07:47:16.669562"], ["updated_at", "2018-11-19 07:47:16.669562"], ["email", "example_7@example.com"], ["encrypted_password", "$2a$10$uyqG6rtjMtXapEIcXdTvP.rTKh/gYb9gXmnLjquQYiFkb88uOAirG"], ["remember_token", "73ebc219403fcc508127c43d3a6c52e275b240f3"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Asymmetrical pabst sustainable vinegar."], ["user_id", 8], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Asymmetrical pabst sustainable vinegar."], ["description", "Semiotics ennui franzen sustainable synth venmo vinyl mustache. Etsy food truck direct trade. Narwhal banh mi leggings heirloom craft beer vinyl ennui synth."], ["user_id", 8], ["created_at", "2018-11-19 07:47:16.673884"], ["updated_at", "2018-11-19 07:47:16.673884"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mRecipe Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" = $1 AND "recipes"."user_id" = $2 LIMIT $3[0m  [["name", "Asymmetrical pabst sustainable vinegar."], ["user_id", 8], ["LIMIT", 1]]
+  [1m[35m (1.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------
+Recipe::validity: test_0001_requires a user
+-------------------------------------------
+  [1m[36mRecipe Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" WHERE "recipes"."name" IS NULL AND "recipes"."user_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
+DEPRECATION WARNING: Static attributes will be removed in FactoryBot 5.0. Please use dynamic
+attributes instead by wrapping the attribute value in a block:
+
+password { "password" }
+
+To automatically update from static attributes to dynamic ones,
+install rubocop-rspec and run:
+
+rubocop \
+  --require rubocop-rspec \
+  --only FactoryBot/AttributeDefinedStatically \
+  --auto-correct
+
+ (called from block (2 levels) in <top (required)> at /usr/src/app/test/factories/users.rb:4)
