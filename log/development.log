@@ -1733,3 +1733,13 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 28ms (Views: 23.2ms | ActiveRecord: 2.0ms)
 
 
+Started GET "/recipes" for 172.18.0.1 at 2018-11-19 06:55:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a7e2a67c474cf55e1313c03a17a73d5ec804bed"], ["LIMIT", 1]]
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."user_id" = $1 ORDER BY "recipes"."id" ASC[0m  [["user_id", 7]]
+  Rendered recipes/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 1.2ms)
+
+
