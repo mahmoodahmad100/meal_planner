@@ -4480,3 +4480,14 @@ ActiveModel::UnknownAttributeError (unknown attribute 'date' for Meal.):
 app/models/meal_plan.rb:17:in `block in build_meals'
 app/models/meal_plan.rb:14:in `build_meals'
 app/controllers/meal_plans_controller.rb:19:in `new'
+Started GET "/meal_plans/" for 172.18.0.1 at 2018-11-25 21:33:39 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MealPlansController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "a73773fe4a08042fe40ff14fc24dc37dfee25893"], ["LIMIT", 1]]
+  [1m[36mMealPlan Load (0.5ms)[0m  [1m[34mSELECT  "meal_plans".* FROM "meal_plans" WHERE "meal_plans"."user_id" = $1 AND (start_date <= '2018-11-25' AND end_date >= '2018-11-25') ORDER BY "meal_plans"."id" ASC LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendering meal_plans/index.html.erb within layouts/application
+  [1m[36mMealPlan Load (0.8ms)[0m  [1m[34mSELECT "meal_plans".* FROM "meal_plans" WHERE "meal_plans"."user_id" = $1 ORDER BY start_date DESC[0m  [["user_id", 1]]
+  Rendered meal_plans/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 90ms (Views: 48.3ms | ActiveRecord: 11.0ms)
+
+
